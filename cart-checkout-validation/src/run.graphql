@@ -1,0 +1,25 @@
+query runInput {
+  cart {
+    deliveryGroups {
+      deliveryAddress {
+        address1
+        countryCode
+      }
+    }
+    lines {
+      merchandise {
+        __typename
+        ... on ProductVariant {
+          id
+          product {
+            metafield(key: "licenses", namespace: "custom") {
+              value
+            }
+            title
+            id
+          }
+        }
+      }
+    }
+  }
+}
