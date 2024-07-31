@@ -11,3 +11,6 @@ If a line item metafield includes a country that matches the shipping country in
 Staff can add a country ISO code to the product metafield, which is a list of single line strings ["AU", "US"]. There shouldn't be a need for touching code with this Function.
 
 See run.ts and run.graphql in src for code 👀
+
+![image](https://github.com/user-attachments/assets/fce129f9-242f-410f-b95c-813d3cf84348)
+
