@@ -1,6 +1,6 @@
 # shopify-validation-function
 
-Validation Function to restrict 
+Validation Function to restrict shipping line items to restricted countries.
 
 Demo Video: https://screenshot.click/30-15-mf5pu-srsih.mp4
 
